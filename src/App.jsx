@@ -11,8 +11,8 @@ import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
 import { Client } from "./components/sections/client";
 import { Logo } from "./components/sections/logo";
-import Journey from "./components/sections/journey"; 
-import Open from "./components/sections/open";
+import { Journey } from "./components/sections/Journey"; 
+import { Open } from "./components/sections/open";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFlag, FaRocket, FaUsers } from "react-icons/fa6";
 
-const Journey = () => {
+export const Journey = () => {
   const milestones = [
     {
       year: "2024",
@@ -100,5 +100,3 @@ const JourneyCard = ({ item }) => {
     </div>
   );
 };
-
-export default Journey;
